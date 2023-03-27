@@ -159,27 +159,27 @@ export default function Form() {
     <form className="row g-3" onSubmit={handleSubmit}>
   <div className="col-md-6">
     <label htmlFor="fname" className="form-label">First Name : {userDetail.firstName}</label>
-    <input type="text" className="form-control" id="fname" name='firstName' value={userDetail.firstName} onChange={handleOnChange} ></input>
+    <input type="text" className="form-control" id="fname" name='firstName' value={userDetail.firstName} onChange={handleOnChange} placeholder="enter first name"></input>
   </div>
   <div className="col-md-6">
     <label htmlFor="lname" className="form-label">Last Name : {userDetail.lastName}</label>
-    <input type="text" className="form-control" id="lname" name='lastName' value={userDetail.lastName} onChange={handleOnChange} ></input>
+    <input type="text" className="form-control" id="lname" name='lastName' value={userDetail.lastName} onChange={handleOnChange} placeholder="enter last name"></input>
   </div>
   <div className="col-md-4">
-    <label htmlFor="inputEmail4" className="form-label">Email</label>
-    <input type="email" className="form-control" id="inputEmail4" name='email' value={userDetail.email} onChange={handleOnChange} ></input>
+    <label htmlFor="inputEmail4" className="form-label">Email Id</label>
+    <input type="email" className="form-control" id="inputEmail4" name='email' value={userDetail.email} onChange={handleOnChange} placeholder="enter email id" ></input>
   </div>
   <div className="col-md-4">
     <label htmlFor="password" className="form-label">Password</label>
-    <input type="password" className="form-control" id="password" name='password' value={userDetail.password} onChange={handleOnChange} ></input>
+    <input type="password" className="form-control" id="password" name='password' value={userDetail.password} onChange={handleOnChange} placeholder="enter password" ></input>
   </div>
   <div className="col-md-4">
     <label htmlFor="confirmPassword" className="form-label">Confirm Password</label>
-    <input type="password" className="form-control" id="confirmPassword" name='confirmPassword' value={confirmPassword} onChange={handleConfirmPassword} style={mystylePassword}></input>
+    <input type="password" className="form-control" id="confirmPassword" name='confirmPassword' value={confirmPassword} onChange={handleConfirmPassword} style={mystylePassword} placeholder="confirm password"></input>
   </div>
   <div className="col-md-4">
     <label htmlFor="inputMobile" className="form-label">Mobile No</label>
-    <input type="number" className="form-control" id="inputMobile" name='mobile'  value={userDetail.mobile} onChange={handleOnChange} ></input>
+    <input type="number" className="form-control" id="inputMobile" name='mobile'  value={userDetail.mobile} onChange={handleOnChange} placeholder="enter mobile no"></input>
   </div>
   <div className="col-md-4">
     <label htmlFor="dob" className="form-label">DOB</label>
