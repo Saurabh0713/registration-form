@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Form from './Form';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container my-5 App p-4 rounded">
+      <h2 className='mb-3' style={{fontFamily:" Arial, Helvetica, sans-serif",fontSize:"42px",color:"whitesmoke"}}>Sign In! To The World Of Tech</h2>
+     <Form/>
     </div>
   );
 }

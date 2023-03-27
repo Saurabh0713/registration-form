@@ -5,9 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: rgb(65, 94, 126) !important; */
+  background: url("https://img.freepik.com/free-vector/abstract-realistic-technology-particle-background_23-2148433468.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
